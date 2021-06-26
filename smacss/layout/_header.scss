@@ -1,0 +1,50 @@
+#header{
+    margin: 0%;
+    padding: 0%;
+}
+.grupo{
+    display: flex;
+    margin: 0%;
+    padding: 0%;    
+    .caja:nth-child(1){
+        width: 60%;
+        .logo{
+            margin-left: 1em;
+            font-weight: 600;
+            font-size: 32px;
+        }
+    }      
+    .caja:nth-child(2){
+        width: 40%;
+        border-bottom: 1px solid #D3D3D3;
+        .foto{
+            width: 80px;
+            height: 80px;
+            object-fit: over;
+        }
+        .subSubTitulo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        #compra {                     
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0;
+            padding-top: 0;
+            width: 100%;
+            div{
+                max-width: 25%;                 
+            }
+            .nombre, .img{
+                font-size: 12px;                
+            }   
+        }
+      
+        .total{font-weight: bold;}
+    }    
+}
